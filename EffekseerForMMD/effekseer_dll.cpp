@@ -5,19 +5,19 @@
 #include <wrl/client.h>
 
 #include <unordered_map>
-#include <experimental/filesystem>
-namespace filesystem = std::experimental::filesystem;
-#include <effekseer/include/Effekseer.h>
-#include <effekseer/include/EffekseerRendererDX9.h>
+#include <filesystem>
+namespace filesystem = std::filesystem;
+#include <Effekseer.h>
+#include <EffekseerRendererDX9.h>
 
 #include "effekseer_dll.h"
 
 #ifndef NDEBUG
-# pragma comment(lib,"effekseer/lib/VS2015/x64/EffekseerRendererDX9.Debug.lib")
-# pragma comment(lib,"effekseer/lib/VS2015/x64/Effekseer.Debug.lib")
+# pragma comment(lib,"/Effekseerd.lib")
+# pragma comment(lib,"EffekseerRendererDX9d.lib")
 #else
-# pragma comment(lib,"effekseer/lib/VS2015/x64/EffekseerRendererDX9.Release.lib")
-# pragma comment(lib,"effekseer/lib/VS2015/x64/Effekseer.Release.lib")
+# pragma comment(lib,"Effekseer.lib")
+# pragma comment(lib,"EffekseerRendererDX9.lib")
 
 # define printf(...) (void)0
 # define puts(...) (void)0

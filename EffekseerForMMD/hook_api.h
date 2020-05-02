@@ -4,9 +4,9 @@
 #include <winbase.h>
 
 #include <mutex>
-#include <experimental/filesystem>
+#include <filesystem>
 #include <io.h>
-namespace filesystem = std::experimental::filesystem;
+namespace filesystem = std::filesystem;
 
 HMODULE dllModule();
 

@@ -26,12 +26,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="effekseer\include\Effekseer.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="effekseer\include\EffekseerRendererDX9.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
     <ClInclude Include="mmd\MMDExport.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>

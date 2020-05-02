@@ -8,8 +8,8 @@
 #include <iostream>
 #include <unordered_map>
 #include <vector>
-#include <experimental/filesystem>
-namespace filesystem = std::experimental::filesystem;
+#include <filesystem>
+namespace filesystem = std::filesystem;
 
-#include <effekseer/include/Effekseer.h>
-#include <effekseer/include/EffekseerRendererDX9.h>
+#include <Effekseer.h>
+#include <EffekseerRendererDX9.h>
